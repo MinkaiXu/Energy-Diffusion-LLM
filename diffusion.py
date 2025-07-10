@@ -1225,6 +1225,7 @@ class EBM(Diffusion):
             x0_samples = x0_samples.view(x.shape[0], k, -1)
             x0 = x0_samples[torch.arange(x.shape[0]), x0_index]
             p_x0_cache = F.one_hot(x0, num_classes=self.vocab_size).float()
+            _, x_next = self._ddpm_caching_update(x, t, dt, p_x0=p_x0_cache)
         if (not torch.allclose(x_next, x)
             or self.time_conditioning):
           # Disable caching
