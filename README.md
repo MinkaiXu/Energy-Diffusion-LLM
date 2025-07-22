@@ -7,14 +7,16 @@ Official code release for the paper "Energy-Based Diffusion Language Models for 
 
 ## Guidelines
 
-More detailed guidelines for using this repository will be provided soon. 
+Checkpoints of pretrained Diffusion and AR LLMs can be downloaded at [here](https://github.com/kuleshov-group/mdlm?tab=readme-ov-file#checkpoints).
+Then you can run training and evaluation scripts in the `scripts` directory.
 
-In the meantime, please refer to the `scripts` directory for the training and evaluation scripts. 
-You can also find useful information in the [MDLM](https://github.com/kuleshov-group/mdlm) repository, which this repository is built upon.
+We suggest you trying `scripts/job_sample_eval_owt_T_arebm.sh` and `scripts/job_eval_owt_T_arebm.sh` first, which don't involve any training.
+
+More detailed guidelines for using this repository will be provided soon. 
 
 ## Acknowledgements
 
-This repository was built off of [MDLM](https://github.com/kuleshov-group/mdlm).
+You can also find useful information in the [MDLM](https://github.com/kuleshov-group/mdlm) repository, which this repository is built upon.
 
 ## Citation
 ```
