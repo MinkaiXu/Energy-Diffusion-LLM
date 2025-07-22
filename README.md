@@ -8,9 +8,8 @@ Official code release for the paper "Energy-Based Diffusion Language Models for 
 ## Guidelines
 
 Checkpoints of pretrained Diffusion and AR LLMs can be downloaded at [here](https://github.com/kuleshov-group/mdlm?tab=readme-ov-file#checkpoints).
-Then you can run training and evaluation scripts in the `scripts` directory.
 
-We suggest you trying `scripts/job_sample_eval_owt_T_arebm.sh` and `scripts/job_eval_owt_T_arebm.sh` first, which don't involve any training.
+Save checkpoints to `checkpoints` folder, *e.g.*, `checkpoints/ar.ckpt`. Then you can run training and evaluation scripts in the `scripts` directory. We suggest you trying `scripts/job_sample_eval_owt_T_arebm.sh` and `scripts/job_eval_owt_T_arebm.sh` first, which don't involve any training.
 
 More detailed guidelines for using this repository will be provided soon. 
 
